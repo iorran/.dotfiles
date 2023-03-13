@@ -1,8 +1,8 @@
 # links
 ```bash
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
-ln -s ~./dotfiles/.tmux.conf ~/.tmux.conf
-ln -s ~./dotfiles/nvim ~/nvim
+cp -rs ~/.dotfiles/.zshrc ~/.zshrc
+cp -rs ~/.dotfiles/.tmux.conf ~/.tmux.conf
+cp -rs ~/.dotfiles/nvim ~/.config/nvim
 ```
 # repos
 ```bash
