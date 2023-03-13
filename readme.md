@@ -8,3 +8,7 @@ cp -rs ~/.dotfiles/nvim ~/.config/nvim
 ```bash
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
+# brew
+```bash
+brew bundle --file ~/.dotfiles/Brewfile
+```
