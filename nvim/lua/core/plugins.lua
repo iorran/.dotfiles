@@ -14,12 +14,12 @@ vim.opt.rtp:prepend(lazypath)
 local opts = {}
 
 local plugins = {
-  'wbthomason/packer.nvim',
   'ellisonleao/gruvbox.nvim',
   'nvim-tree/nvim-tree.lua',
   'nvim-tree/nvim-web-devicons',
   'nvim-lualine/lualine.nvim',
   'nvim-treesitter/nvim-treesitter',
+  'nvim-lua/plenary.nvim',
   {
     'nvim-telescope/telescope.nvim',
     tag = '0.1.0',
@@ -35,6 +35,10 @@ local plugins = {
    },
    'lewis6991/gitsigns.nvim',
    'github/copilot.vim',
+   'christoomey/vim-tmux-navigator',
+   'numToStr/Comment.nvim',
+   -- 'jose-elias-alvarez/null-ls.nvim',
+   -- 'jayp0521/mason-null-ls.nvim',
 }
 
 require("lazy").setup(plugins, opts)

@@ -10,6 +10,16 @@ require('mason-lspconfig').setup({
   }
 })
 
+-- require("mason-null-ls").setup({
+--     ensure_installed = {
+--       'prettier',
+--       'eslint_d',
+--       'stylua',
+--     },
+-- })
+--
+-- require 'mason-null-ls'.setup_handlers() -- If `automatic_setup` is true.
+
 local on_attach = function(_,_)
   vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, {})
   vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {})
