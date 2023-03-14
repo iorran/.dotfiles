@@ -37,8 +37,7 @@ local plugins = {
    'github/copilot.vim',
    'christoomey/vim-tmux-navigator',
    'numToStr/Comment.nvim',
-   -- 'jose-elias-alvarez/null-ls.nvim',
-   -- 'jayp0521/mason-null-ls.nvim',
+   'jose-elias-alvarez/null-ls.nvim',
 }
 
 require("lazy").setup(plugins, opts)
